@@ -13,7 +13,7 @@
   
   }
   #container{
-    background-color: lightblue;
+    background-color: #053B49;
     padding-top: 20px;
     overflow: auto;
     width: 700px;
@@ -21,7 +21,7 @@
 
   #Header{
     height: 200px;
-    background-color: whitesmoke;
+    background-color: rgb(194,190,190);
     margin: 20px;
     margin-top: 0;
     width: 660px;
@@ -30,16 +30,77 @@
 
 #Main{
   height: 700px;
-background-color: whitesmoke;
+background-color: #f5f5f5;
 margin: 20px;
+padding: 10px;
+padding-bottom: 20px;
+
 
 }
 #Footer{
   height: 200px;
 background-color: whitesmoke;
 margin: 20px;
+text-align: center;
+padding-bottom: 10px;
 
 }
+/* Selecting multiple elements for the same rules*/
+#header, #main, #footer {
+}
+/* Selecting elements in a specific hierarchy.*/
+body #main{
+}
+
+#content {
+background-color: wheat;
+height: 100%;
+width: 442px;
+margin: 10px;
+margin-top: 0;
+display: inline-block;
+}
+
+#sidebar {
+background-color: wheat;
+width: 148px;
+height: 100%;
+margin: 10px;
+display: inline-block;
+}
+
+
+#left{
+background-color:rgba(180,100,100,.5);
+width: 200px;
+height: 100%;
+margin: 5px;
+display: inline-block;
+border-radius: 20px;
+}
+
+#center{
+  background-color: purple;
+  width: 200px;
+  height: 100%;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  /*used to make site look pretty, not for content not the correct way to do it. For content is put image in html, so that readers can read it*/
+  background-image: url(../html/dawn-fog-foggy-2819353.jpg);
+  background-size: cover;
+}
+
+#right{
+  background-color: purple;
+  width: 200px;
+  height: 100%;
+  margin: 5px;
+  display: inline-block;
+  
+}
+
+
 </Style>
 
 
@@ -49,8 +110,23 @@ margin: 20px;
 <div id="container">
 
 <div id="Header">"Header"</div>
-<div id="Main">"Main"</div>
-<div id="Footer">"Footer"</div>
+
+<div id="Main">
+
+  <div id="content"></div>
+  <div id="sidebar"></div>
+
+</div>
+
+
+<div id="Footer">
+<!--when you had divs on one line there will be no spaces-->
+  <div id="left"><p></p></div>
+  <div id="center"></div>
+  <div id="right"></div>
+
+</div>
+
 
 </div>
  
