@@ -1,0 +1,29 @@
+
+#container {
+    width: 700px;
+    height: 600px;
+    background-color: wheat;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: right;
+}
+
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    float: left;
+}
