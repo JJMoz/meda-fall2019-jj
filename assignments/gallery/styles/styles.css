@@ -32,7 +32,7 @@ main {
     padding-top: 10px;
 }
 #main-gallery {
-    background-color: peachpuff;
+  background-color: peachpuff; 
     height: 300px;
     margin: 0 10px 10px 10px;
     text-align: center;
@@ -61,17 +61,18 @@ background-color:white;
 margin: 10px;
 }
 
+
+
+/*Main End*/
+
+
+/*Footer Start*/
 footer{
     background-color: whitesmoke;
     height: 100px;
     margin-bottom: 0;
 }
 
-/*Main End*/
 
-
-/*Footer Start*/
-
-}
 /*Footer End*/
 
