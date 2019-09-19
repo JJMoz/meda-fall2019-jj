@@ -76,6 +76,7 @@ img{
 
 #body-text{
     text-align: center;
+    font-size: 30px;
 
 
 }
@@ -106,8 +107,28 @@ h2{
 
 }
 
+/* CSS Just for the About page */
 
-    
+#pdf-link > a {
+    color: #C4CAD0;
+ 
+}
+
+
+/* CSS Just for the Contact page */    
+
+#form-container{
+    display: block;
+    text-align: center
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 
 
 
