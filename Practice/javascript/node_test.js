@@ -158,7 +158,7 @@ if (true)  {
 
 true != true //false
 
-var age =100029;
+var age =100029; 
 
 if (age >= 21) {
 
