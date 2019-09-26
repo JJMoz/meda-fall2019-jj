@@ -1,0 +1,63 @@
+
+A)
+COLORS
+#373F51 - CHARCOAL----------------Background
+#201E50 - SPACE CADET-------------Header
+#C4CAD0 - LAVENDER GRAY-----------Text
+#878C8F - ROMAN SILVER------------Footer
+#525B76 - PAYNE'S GREY------------Body-containers
+#878C8F - ROMAN SILVER------------Footer
+
+
+B)
+IMAGES
+jj-website-pic.jpg
+linkedin-image.png
+
+
+C)
+SITEMAP
+sitemap.jpg
+
+
+D)
+HOME
+JJ Morrissey
+Web Developer
+
+ABOUT
+Hello, I am JJ Morrissey.  I a new web developer with previous experience in the restaurant business. During my career in restaurants, I was a jack of all trades.  From cooking, bartending to managing and bookkeeping. I did whatever was needed.  However, in my new career, I am more focused.  Front-end development is what intrigues me and is my specialty.
+
+PORTFOLIO
+Portfolio
+Project 1 - Summary of Project
+Project 2 - Summary of Project
+Project 3 - Summary of Project
+
+CONTACT
+Say Hello
+Name
+Email
+Message
+Send
+
+
+E)
+http://clementgrellier.fr
+I didn't like the Homepage it was confusing. The contact info was small. Also, the link to the About page was just a small "a".I liked the project page. It was clean and to the point with links to the project if you wanted more detail. It listed the technology he used in each project and the awards it won.
+
+http://capauwels.com
+Home and portfolio page is easy to understand, I do not have to think. I don't like his contact button, it goes straight to an email draft with his email address.  Also the about me page is way too long.
+
+http://stefivanov.com
+I do not like the glasses pic, it is kind of creepy how the eyes occasionally blink. I don't like her portfolio projects they have no explanation just pictures of her work. I like her contact page and how she has a form that you can fill out if you want to hire her.
+
+
+F)
+WIREFRAMES
+wireframes-jj.pdf
+
+
+G)
+RESUME PDF
+website-resume.pdf

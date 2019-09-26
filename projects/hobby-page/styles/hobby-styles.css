@@ -1,0 +1,117 @@
+
+#container {
+    background-color:#373F51;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+/* Header Starts */
+
+header{
+    background-image:url(../images/bar-background.jpg);
+    height: 200px;
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    
+
+}
+
+
+
+/* Header Ends */
+
+
+
+/* Main Starts */
+p{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#cocktail-1 {
+    display: block;
+    margin: auto;
+    width: 320px;
+    height: 214px;
+}
+#cocktail-2 {
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 322px;
+}
+
+#bartools {
+    widows: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    
+}
+a:hover{
+    color: red;
+}
+
+a:link {
+    color: #878C8F
+}
+
+a:visited{
+    color: #878C8F;
+}
+
+h3{
+    text-align:  center;
+}
+
+#appendix{
+    text-align: center;
+}
+
+#resources{
+    display: inline;
+    size: 24px;
+    text-align: center;
+}
+
+
+/* Main Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Start*/
+footer{
+    background-color: #878C8F;
+    height: 80px;
+    margin: 10px;
+    padding: 5px;
+    text-align: right;
+    font-size: 12px;
+}
+#footer-appendex {
+    text-align: left;
+    font-size: 16px;
+}
+
+#footer-copy{
+    font-size: 16px;
+    text-align: right;
+}
+/*Footer End*/
