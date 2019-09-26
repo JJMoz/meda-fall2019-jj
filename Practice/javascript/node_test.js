@@ -84,14 +84,25 @@ var difference = 100 - 30;
 var quotient = 10 / 3;
 var product = 100 * 2;
 
-//These math operators are only available to NUmber datatype
+//These math operators are only available to Number datatype
 
 /* 
 You cannot do this:
-var diff = true / "string"
+var diff = true / "string"git
 var other = "another string" * 100;
  */
 
  // This + operator has two ussages. The second one is called CONCATINATION.
  var wholeSentence = "My name is" + "JJ";
  console.log(wholeSentence);
+
+//Good use of  CONCATINATION
+var userName = "Overlord";
+var sentencePart1 = "Hello there,";
+var sentencePart2 = " , how are you doing?";
+
+var complete = sentencePart1 + userName + sentencePart2;
+
+console.log(complete);
+
+
