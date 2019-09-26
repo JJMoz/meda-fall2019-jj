@@ -5,6 +5,7 @@
     height: 100%;
     margin: 0 auto;
     padding: 10px;
+    font-size: 22px;
 
 }
 /* Header Starts */
@@ -29,8 +30,8 @@ header{
 
 /* Main Starts */
 p{
-    font-size: 24px;
-    font-family: sans-serif;
+    /* font-size: 24px; */
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
