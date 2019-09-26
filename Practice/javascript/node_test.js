@@ -105,4 +105,64 @@ var complete = sentencePart1 + userName + sentencePart2;
 
 console.log(complete);
 
+//Using variables to do math on changing data.
 
+var num1 = 100;
+var num2 = 40;
+var sum1 = num1 + num2;
+var difference1 = num1 - num2;
+var difference2 = num2 - num1;
+
+
+//Defining Variables agian.
+var createdVariable;
+createdVarVariable = 100;
+
+// can not create the same box twice, ie var 
+
+var someValue = 10 -36 / 6 * 3;
+
+// old math 8 , new math and what the computer uses -8 (PEMDAS)
+
+console.log(someValue);
+
+// If Else Statement
+
+if (true)  { 
+
+    console.log("this is true");
+
+}
+
+/* Conditional Operators COMPARITORS
+
+== both sides are equal
+>= left side is equal or bigger
+<= left side is  equal or smaller
+< left side is smaller
+> left side is bigger
+!= not equal to
+! flip BOOLEAN
+
+*/
+
+10 == 100; //false
+9 == 9; //true
+// Hello == hello; //false
+101 <= 100; //true
+100 != 50; //true
+50 != 50; // false
+
+!false //true
+!true //false
+
+true != true //false
+
+var age =100029;
+
+if (age >= 21) {
+
+    console.log("Congratz, you can now drink soda.");
+
+
+}
