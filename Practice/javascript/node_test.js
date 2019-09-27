@@ -163,6 +163,5 @@ var age =100029;
 if (age >= 21) {
 
     console.log("Congratz, you can now drink soda.");
-
-
 }
+
