@@ -12,7 +12,7 @@ function myFunction() {
     console.log("This is line 3.")
 
 }
-
+number;
 
 function math(firstNumber){
     console.log(firstNumber+3)
@@ -22,11 +22,25 @@ function math(firstNumber){
 }
 
 
+
+
+//asign value later
+var variableName;
+//asigns value now
+var variableName2 = "new Variable";
+
+
+
+
+
+
+
 //call in the functions
-number;
+// number;
 myFunction();
 math(100);
 math(1000);
+
 
 
 
