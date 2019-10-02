@@ -64,3 +64,16 @@ console.log("Hello World".charAt(8) );
 
 // Find the character in the string and return the position number and send it to the console.
 console.log("Hello World".indexOf("r") );
+
+
+    //  METHOD is a fuction that belongs to a Object (larger chunk of code) that runs when called
+    // Object.method();
+
+    // PROPERTY is a value stored in an Object.
+    //Object.property
+
+    // Pi number
+    Math.PI;
+
+    // Length of a string.
+    "This is somewhat long.".length; //22
