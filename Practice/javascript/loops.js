@@ -28,7 +28,7 @@ do {
 } while ( aVariable );
 
 
-//
+//Create a string to play with a counter (i) a condition to stop the loop (loopContinue, and a variable to hold he number of characters of the string (lengthOFString)
 
 var stringToTest = "This has to be a really long sentence so we have a chance to count a character twice"
 var i = 0
