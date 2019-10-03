@@ -4,14 +4,14 @@
 
 
 
-   // function myFunction () {
-    //    var text = "Hellow World";
-   //     return text;
-   // }
+ function myFunction () {
+       var text = "Hellow World";
+       return text;
+   }
 
 
-   // var anyName = myFunction2();
-   // console.log(text);
+   var anyName = myFunction();
+   console.log(anyName);
 
 // Practice, Create 3 Diffrent Functions, each one returns a different datatype. Console.log the results of you functions
 
