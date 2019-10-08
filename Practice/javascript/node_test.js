@@ -36,7 +36,7 @@ message = "This is stored inside of a a variable";
 console.log(message);
 
 
-//Variables can onl hold one value at a time, so we are overwriting the previous value in message when we reassign
+//Variables can only hold one value at a time, so we are overwriting the previous value in message when we reassign
 message = " I overwrote the prevous test in message variable";
 
 //Because this is console log () happened after the update we will get the new value to the consule.

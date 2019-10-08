@@ -2,14 +2,14 @@
 
  console.log(story1);
 
- var raining = false;
+ var raining = true;
 
  if (raining) {
     var story2 = "It is currently raining, Eduardo took grab an umbrella";
 
         console.log(story2);
 
-        var option2 = true;
+        var option2 = false;
         
         if (option2) {
             var story3 = "They umbrella flew away, and now Eduardo is completely wet.";
@@ -45,6 +45,7 @@
 
 
 
+/*
 var mystory1 = "Bob is going to work";
 
 console.log(mystory1);
@@ -62,4 +63,4 @@ else {
     console.log(mystory2);
 }
 
-
+*/

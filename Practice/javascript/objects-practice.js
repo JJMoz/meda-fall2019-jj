@@ -30,3 +30,4 @@ mySecondArray [10] = 1;
 
 console.log(myFirstObject);
 console.log(mySecondArray);
+

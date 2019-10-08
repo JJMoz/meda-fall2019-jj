@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>jQuery Practice </title>
+ 
+<style>
+    body {
+        background-color: gray;
+        color:lightblue;
+    }
+
+</style>
+
+<!-- the src tag puts all the jquery js library between the script tags. jquery goes in head because it needs to run first/before my code-->
+<script src="jquery-3.4.1.min.js "></script>
+</head>
+
+<body>
+    <p>jQuery Practice</p>
+
+    <div class="footer"><p> Footer<p></div>
+
+
+    <script>
+        
+
+
+        $(document).ready(function () 
+        {
+            // All JS and jQuery should go here except for custom function defintions.
+            console.log("hello There");
+
+
+//ADD AND REMOVE HTML--- START
+            // .html() changers the html contents of the selected elements
+            $("body").html("<p>How are you doing?</p>", );
+            $("body").html("<h1>This is a h1 text?</h1>");
+        
+
+            // .append() Adds to the end of the html contents of the seleted elements.
+            $("body").append("<p id='forRemoval'>This should be after h1 (append)");
+                // Adds to the BEGINNING of the html contents of the selected elements.
+            $("body").prepend("<p>This is before the contents (prepend)</p>");
+                //.remove() Removes the selected element(s);
+            $("#forRemoval").remove();
+
+              $("body").append("<p id='div'>footer(append)");
+
+//ADD AND REMOVE HTML--- END
+
+// CSS START
+            // .css() lets you modify the css of the selected element. First string is the CSS poprerty, second string is the CSS property value.
+            $("h1").css("color", "fuchsia");
+            $("h1").css("font-size", "72px");
+
+
+            // Also can use objects to provide many CSS properties at once.
+            $("p").css( {
+                    color: "red",
+                    "background-color": "wheat",
+                    "font-family": "Arial",
+                    border: "1px solid black",
+                    "font-weight": "700",
+                    "text-align": "center",
+                    padding: "40px"
+                } )
+
+            $("div").css ( {
+                width: "300px",
+                height: "100px",
+                "background-color": "wheat",
+                border: "1px solid black",
+                "border-radius": "10px",            
+
+
+
+                } )
+                    
+// CSS ENDING
+
+
+// START OF BUTTON EVENTS
+
+
+$("body").prepend("<button id='createText'>Click Me</button>");
+
+
+        }  );
+
+    </script>
+
+
+</body>
+</html>
