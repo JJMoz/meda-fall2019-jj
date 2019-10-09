@@ -97,14 +97,30 @@
 
             $("body").prepend("<button id='createText'>Click Me</button>");
 
-            $("#createText").click(function() {
-                $("body").prepend("<p> The button was clicked </p>");
-            }
-            );
+            $("#createText").click(function () {
+                $("body").prepend("<p>The button was clicked!</p>");
+                $("div").remove();
+                $("body").css("background-color", "pink");
+                $("h1").css("color", "coral")
+
+            // $("#createText").click(function() {
+
+                // $("body").prepend("<p> The button was clicked </p>");
+
+                $("body").append("<button id= 'removeOtherButton'>Remove Other Button. </button>")
+
+                $("removeOtherButton").click(function () {
+                    $("#createText").remove();
+
+
+                    
+                });
+
+            });
 
 
 
-        }  );
+        });
 
     </script>
 
