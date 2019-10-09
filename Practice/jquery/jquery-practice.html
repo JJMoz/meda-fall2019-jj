@@ -21,7 +21,6 @@
 <body>
     <p>jQuery Practice</p>
 
-    <div class="footer"><p> Footer<p></div>
 
 
     <script>
@@ -74,18 +73,35 @@
                 "background-color": "wheat",
                 border: "1px solid black",
                 "border-radius": "10px",            
-
-
-
                 } )
-                    
+                   
+                $("body").append(`
+                <div id='container'>
+                    <div id='box'></div>
+                    <div></div>
+                    <div></div>
+                </div`);
+            $("#container").css("width", "500px");
+            $("#container").css("background-color", "lightblue");
+            $("#container").css("height", "500px");
+            $("#container div").css("width", "150px");
+            $("#container div").css("height", "150px");
+            $("#container div").css("margin", "8px");
+            $("#container div").css("background-color", "wheat");
+
 // CSS ENDING
 
 
 // START OF BUTTON EVENTS
 
 
-$("body").prepend("<button id='createText'>Click Me</button>");
+            $("body").prepend("<button id='createText'>Click Me</button>");
+
+            $("#createText").click(function() {
+                $("body").prepend("<p> The button was clicked </p>");
+            }
+            );
+
 
 
         }  );
