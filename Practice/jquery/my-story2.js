@@ -4,6 +4,14 @@ $(document).ready(function (){
 
     $("#story").append("<p>Should Bob set an alarm for work tommorrow.</p>");
 
+    $("#choices").append("<button id='early'>YES</button>");
+    $("#choices").append("<button id='late'>NO</button>");
+ 
+    
+
+
+
+
 
 
 
