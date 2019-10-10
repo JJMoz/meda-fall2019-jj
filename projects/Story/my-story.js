@@ -1,72 +1,126 @@
-  
 // We have two divs, one is #story, and the other was called #choices
 
-// Make sure the DOM is ready before running jQuery Code.
-$(document).ready(function () {
-    
-    // Start of the story with a sentence when we load the page.
-    $("#story").append("<p>Eduardo woke up.</p>");
+$(document).ready(function (){
 
-    // add a button for raining.
-    $("#choices").append("<button id='raining'>It is raining.</button>");
+    $("#story").append("<p>Should Bob set an alarm for work tommorrow.</p>");
 
-    // add a button for sunny.
-    $("#choices").append("<button id='sunny'>It is sunny</button>");
+    $("#choices").append("<button id='early'>YES</button>");
+    $("#choices").append("<button id='late'>NO</button>");
 
-    // attach an event listener for the raining button.
-    $("#raining").click(function () {
+    $("#late").click(function () {
         
-        // If clicked...
+        $("#story").append("<p>Bob woke up late and will need to take a car.</p>");
 
-        // add to the story with a sentence.
-        $("#story").append("<p>Unfortunately it is pouring like a tsunami outside.</p>");
+        $("#late").remove();
+        $("#early").remove();
 
-        // remove the old choice buttons.
-        $("#raining").remove();
-        $("#sunny").remove();
+      
+        $("#choices").append("<button id='lyft'>Take a Lyft</button>");
+        $("#choices").append("<button id='uber'>Take a Uber</button>");
 
-        // add the new choice buttons.
-        $("#choices").append("<button id='umbrella'>Find Umbrella</button>");
-        $("#choices").append("<button id='forget'>Forget about the Umbrella</button>");
-
-        // attach an event listener for the umbrella button.
-        $("#umbrella").click(function () {
+    
+        $("#lyft").click(function () {
 
             // if clicked...
 
             // add to the story with a sentence.
-            $("#story").append("<p>Eduardo took the umbrella, and lived happily ever after.</p>");
+            $("#story").append("<p>Bob took a Lyft and it made a wrong turn.  The Lyft is now stuck in traffic.    Should Bob get out of the Lyft and Run to work?</p>");
 
             // remove the old choice buttons
-            $("#umbrella").remove();
-            $("#forget").remove();
+            $("#lyft").remove();
+            $("#uber").remove();
+
+            $("#choices").append("<button id='run'>Yes, Run</button>");        
+            $("#choices").append("<button id='stay'>No, Stay in Lyft</button>");
+
+            $("#run").click(function (){
+                $("#story").append("<p> Bob arrived to work on time. You Chose Wisely.</p>");
+
+                $("#run").remove();
+                $("#stay").remove();
+            })
+
+            $("#stay").click(function () {
+                $("#story").append("<p> Bob arrived to work late and was fired. You Chose Poorly.</p>");
+
+                $("#run").remove();
+                $("#stay").remove();
+            })
+
         });
 
-        // attach an event listener for the forget button.
-        $("#forget").click(function () {
-            
-            // if clicked...
+        $("#uber").click(function () {
 
-            // add to the story with a sentence.     
-            $("#story").append("<p>Eduardo forgot his umbrella, and then get soaked, and get sick.</p>");
+            $("#story").append("<p>Bob took a Uber and arrived to work early. You Chose wisely.</p>");
 
-            // remove the old choice buttons
-            $("#umbrella").remove();
-            $("#forget").remove();
+            $("#lyft").remove();
+            $("#uber").remove();
+        }); 
+
+    })
+// END OF NO ALARM, LATE CODE
+
+// START OF YES ALARM, EARLY CODE
+
+$("#early").click(function () {
+        
+    $("#story").append("<p>Bob woke up early and will walk to work.</p>");
+
+    $("#late").remove();
+    $("#early").remove();
+
+  
+    $("#choices").append("<button id='coffee'>Grab Coffee</button>");
+    $("#choices").append("<button id='nocoffee'>No Coffee</button>");
+
+
+    $("#coffee").click(function () {
+
+        // if clicked...
+
+        // add to the story with a sentence.
+        $("#story").append("<p>Bob goes into the coffee shop and sees his old Boss, should he say Hi or get to work?</p>");
+
+        // remove the old choice buttons
+        $("#coffee").remove();
+        $("#nocoffee").remove();
+
+        $("#choices").append("<button id='hi'>Yes, Say Hi</button>");        
+        $("#choices").append("<button id='nohi'>No, Go to Work</button>");
+
+        $("#hi").click(function (){
+            $("#story").append("<p> Bob says Hi to his old Boss and received a job offer for double his salary. You Chose Wisely.</p>");
+
+            $("#hi").remove();
+            $("#nohi").remove();
         });
 
+        $("#nohi").click(function () {
+            $("#story").append("<p> Bob arrived to work on time. You Chose Wisely .</p>");
+
+            $("#hi").remove();
+            $("#nohi").remove();
+        });
 
     });
 
+    $("#nocoffee").click(function () {
 
+        $("#story").append("<p>Bob arrived to work early and recieved a raise. You Chose wisely.</p>");
 
-
-    
-
-
-
-
-
-
+        $("#coffee").remove();
+        $("#nocoffee").remove();
+    }); 
 
 });
+
+
+
+
+
+
+
+
+
+
+})
