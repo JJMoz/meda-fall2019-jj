@@ -127,11 +127,55 @@ h2{
 
 /*Footer Start*/
 footer{
-    background-color: #878C8F;
+    background-color: #8A95A5;
     height: 50px;
     margin: 10px;
     padding: 5px;
     text-align: right;
 }
 /*Footer End*/
+
+
+
+/* PORTFOLIO PAGE */
+
+
+#project1{
+    widows: 700px;
+    background-color: #8A95A5;
+    margin: 0, auto;
+}
+
+#project2{
+    widows: 700px;
+    background-color: #8A95A5;
+    margin: 0, auto;
+}
+
+#project3{
+    widows: 700px;
+    background-color:#8A95A5;
+    margin: 0, auto;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial;
+    margin:  10px, 0, 0, 10px;
+}
+
+#aboutproject {
+    float: right;
+    width: 450px;
+    margin-top: 5px;
+}
+
+#projectthumb {
+    margin: 20px;
+    /* border: yellow 5px dashed; */
+
+}
+
 
