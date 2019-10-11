@@ -147,13 +147,13 @@ footer{
 }
 
 #project2{
-    widows: 700px;
+    widows: 600px;
     background-color: #8A95A5;
     margin: 0, auto;
 }
 
 #project3{
-    widows: 700px;
+    widows: 600px;
     background-color:#8A95A5;
     margin: 0, auto;
 }
@@ -170,6 +170,7 @@ h2{
     float: right;
     width: 450px;
     margin-top: 20px;
+    font-size: 20px;
 }
 
 #projectthumb {
