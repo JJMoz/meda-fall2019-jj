@@ -2,7 +2,7 @@
 
 $(document).ready(function (){
 
-    $("#story").append("<p>Should Bob set an alarm for work tommorrow.</p>");
+    $("#story").append("<p>Should Bob set an alarm for work tommorrow?</p>");
 
     $("#choices").append("<button id='early'>YES</button>");
     $("#choices").append("<button id='late'>NO</button>");
@@ -41,7 +41,7 @@ $(document).ready(function (){
             })
 
             $("#stay").click(function () {
-                $("#story").append("<p> Bob arrived to work late and was fired. You Chose Poorly.</p>");
+                $("#story").append("<p> Bob arrived to work late and was fired.</p>");
 
                 $("#run").remove();
                 $("#stay").remove();
