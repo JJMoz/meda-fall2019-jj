@@ -64,7 +64,7 @@ $(document).ready(function (){
 
 $("#early").click(function () {
         
-    $("#story").append("<p>Bob woke up early and will walk to work.</p>");
+    $("#story").append("<p>Bob woke up early and will walk to work. Coffee?</p>");
 
     $("#late").remove();
     $("#early").remove();
